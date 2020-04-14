@@ -153,9 +153,9 @@ TEST_CASE("Test case 3") {
     .addMother("x","y")
     .addFather("y","z");
     
-    CHECK(T.find("great-great-grandfather") == string("x"));
+    CHECK(T.find("great-grandmother") == string("x"));
     CHECK(T.find("great-great-grandmother") == string("y"));
-    CHECK(T.find("great-grandmother") == string("z"));
+    CHECK(T.find("great-great-great-grandfather") == string("z"));
       
     T.remove("b");
     
