@@ -53,7 +53,7 @@ TEST_CASE("Test case 2") {
     CHECK(T.relation("c") == string("mother"));
     CHECK(T.relation("d") == string("grandfather"));
     CHECK(T.relation("e") == string("great-grandmother"));
-    CHECK(T.relation("f") == string("great-great-grandfater"));
+    CHECK(T.relation("f") == string("great-great-grandfather"));
     CHECK(T.relation("g") == string("great-great-great-grandmother"));
     CHECK(T.relation("h") == string("great-great-great-great-grandfather"));
     CHECK(T.relation("i") == string("great-great-great-great-great-grandmother"));
